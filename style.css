@@ -40,11 +40,11 @@ body{
 .container .overlay{
 	background:var(--overlay-color);
 	z-index: 3;
-	padding:35.7vh 30vw;
+	padding:16.5% 21%;
 	/* height:71.3%; */
 	/* border:2px solid #fff; */
 	position: absolute;
-	top:20vh;
+	margin:0% 0;
 	border-radius: 0 20px 20px 0;
 	opacity: .2;
 }
@@ -164,6 +164,12 @@ span{
 
 }
 
+/* @media(min-width:1024px){
+	.container .overlay{
+		padding:16.5% 20%;
+	}
+} */
+
 
 @media(min-width:1440px){
 	.container{
@@ -221,7 +227,7 @@ span{
     }
 
 	.container .overlay{
-		top:8.5vh;
+		margin:10%;
 		padding:18.8% 30%;
 		right:4vw;
 	}
@@ -257,7 +263,7 @@ span{
 
 
 
-/* @keyframes slideInFromLeft-1{
+@keyframes slideInFromLeft-1{
 	0%{
 		transform:translateX(-100%);
 	}
@@ -303,4 +309,5 @@ span{
 	100%{
 		transform:translateX(0);
 	}
-} */
+}
+
