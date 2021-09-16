@@ -40,7 +40,7 @@ body{
 .container .overlay{
 	background:var(--overlay-color);
 	z-index: 3;
-	padding:16.5% 21%;
+	padding:16.5% 20.5%;
 	/* height:71.3%; */
 	/* border:2px solid #fff; */
 	position: absolute;
