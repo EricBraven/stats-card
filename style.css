@@ -280,7 +280,7 @@ span{
     }
 
 	.container .overlay{
-		margin:10%;
+		margin:0;
 		padding:18.8% 30%;
 		right:4vw;
 	}
