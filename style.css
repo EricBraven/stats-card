@@ -40,7 +40,7 @@ body{
 .container .overlay{
 	background:var(--overlay-color);
 	z-index: 3;
-	padding:16.5% 20.5%;
+	padding:16.5% 21%;
 	/* height:71.3%; */
 	/* border:2px solid #fff; */
 	position: absolute;
@@ -57,7 +57,7 @@ body{
 	z-index: 4;
 }
 
-.container .sub-container h3{
+.container .sub-container .h3{
 	font-size:40px;
 	font-weight: 700;
 	margin:20px 0;
@@ -84,7 +84,7 @@ body{
 	margin:60px 0 10px;
 }
 
-.container .sub-container h4{
+.container .sub-container .flex h4{
 	font-size:22px;
 	letter-spacing: .1rem;
 	animation: slideInFromLeft-3 9s linear  1;
@@ -96,6 +96,7 @@ body{
 	color:var(--poly-color);
 	animation: slideInFromLeft-4 4s linear  1;
 }
+
 
 @keyframes slideInFromLeft-1{
 	0%{
@@ -144,6 +145,8 @@ body{
 		transform:translateX(0);
 	}
 }
+
+
 
 
 
@@ -261,7 +264,6 @@ span{
         font-weight:700;
         margin:30px 0px;
         color:var(--nuclear-color);
-		animation: slideInFromLeft-1 6s linear  1;
     }
 
     span{
@@ -275,7 +277,6 @@ span{
 	    color:var(--extended-color);
 	    margin:0 40px 40px 0px;
 	    line-height:2rem;
-		animation: slideInFromLeft-2 7s linear  1;
     }
 
 	.container .overlay{
@@ -299,7 +300,6 @@ span{
 	    font-weight:400;
 	    font-family:'Inter', sans-serif;
 	    margin:15px 0 10px;
-		animation: slideInFromLeft-3 9s linear  1;
     }
 
     .container .sub-container .flex p{
@@ -308,58 +308,7 @@ span{
 	    font-family:'Inter', sans-serif;
 	    margin:5px 0;
 	    color:var(--extended-color);
-		animation: slideInFromLeft-4 4s linear  1;
     }
 
-}
-
-
-
-@keyframes slideInFromLeft-1{
-	0%{
-		transform:translateX(-100%);
-	}
-	50%{
-		transform: translateX(10%);
-	}
-	100%{
-		transform:translateX(0);
-	}
-}
-
-@keyframes slideInFromLeft-2{
-	0%{
-		transform:translateX(-100%);
-	}
-	50%{
-		transform: translateX(10%);
-	}
-	100%{
-		transform:translateX(0);
-	}
-}
-
-@keyframes slideInFromLeft-3{
-	0%{
-		transform:translateX(-100%);
-	}
-	50%{
-		transform: translateX(10%);
-	}
-	100%{
-		transform:translateX(0);
-	}
-}
-
-@keyframes slideInFromLeft-4{
-	0%{
-		transform:translateX(-100%);
-	}
-	50%{
-		transform: translateX(50%);
-	}
-	100%{
-		transform:translateX(0);
-	}
 }
 
