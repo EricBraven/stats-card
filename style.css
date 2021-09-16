@@ -61,6 +61,7 @@ body{
 	font-size:40px;
 	font-weight: 700;
 	margin:20px 0;
+	animation: slideInFromLeft-1 6s linear  1;
 }
 
 .container .sub-container h3 span{
@@ -73,6 +74,7 @@ body{
 	margin:0 30px 20px 0;
 	color:var(--poly-color);
 	line-height: 1.5rem;
+	animation: slideInFromLeft-2 7s linear  1;
 }
 
 .container .sub-container .flex{
@@ -85,12 +87,62 @@ body{
 .container .sub-container h4{
 	font-size:22px;
 	letter-spacing: .1rem;
+	animation: slideInFromLeft-3 9s linear  1;
 }
 
 .container .sub-container .flex p{
 	margin:10px 0;
 	font-size:15px;
 	color:var(--poly-color);
+	animation: slideInFromLeft-4 4s linear  1;
+}
+
+@keyframes slideInFromLeft-1{
+	0%{
+		transform:translateX(-100%);
+	}
+	50%{
+		transform: translateX(10%);
+	}
+	100%{
+		transform:translateX(0);
+	}
+}
+
+@keyframes slideInFromLeft-2{
+	0%{
+		transform:translateX(-100%);
+	}
+	50%{
+		transform: translateX(10%);
+	}
+	100%{
+		transform:translateX(0);
+	}
+}
+
+@keyframes slideInFromLeft-3{
+	0%{
+		transform:translateX(-100%);
+	}
+	50%{
+		transform: translateX(10%);
+	}
+	100%{
+		transform:translateX(0);
+	}
+}
+
+@keyframes slideInFromLeft-4{
+	0%{
+		transform:translateX(-100%);
+	}
+	50%{
+		transform: translateX(50%);
+	}
+	100%{
+		transform:translateX(0);
+	}
 }
 
 
